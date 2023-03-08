@@ -9,9 +9,9 @@ import {
   Followers,
   Button,
 } from './MainCard.styled';
-import logo from '../../images/logo.svg';
-import picture from '../../images/picture.png';
-import boy from '../../images/Boy.png';
+// import logo from '../../images/logo.svg';
+// import picture from '../../images/picture.png';
+// import boy from '../../images/Boy.png';
 
 export const MainCard = () => {
   const [isFollow, setIsFollow] = useState(false);
@@ -34,9 +34,9 @@ export const MainCard = () => {
   return (
     <>
       <Container>
-        <LogoImage src={logo} alt="logo" />
+        {/* <LogoImage src={logo} alt="logo" />
         <Picture src={picture} alt="backgroundImage" />
-        <FrameImg src={boy} alt="user" />
+        <FrameImg src={boy} alt="user" /> */}
         <Border />
         <Twitts>777 tweets</Twitts>
         <Followers>{followers.toLocaleString()} Followers</Followers>

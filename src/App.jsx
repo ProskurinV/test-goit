@@ -1,4 +1,3 @@
-import { MainCard } from './MainCard/MainCard';
 
 export const App = () => {
   return (
@@ -11,7 +10,7 @@ export const App = () => {
         background: 'ffffff',
       }}
     >
-      <MainCard />
+      <h1>sdfdkfjsl</h1>
     </div>
   );
 };
